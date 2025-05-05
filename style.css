@@ -24,6 +24,13 @@ h1{
     width: 250px;
     padding: 15px;
     margin: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s ;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0, 0.2);
 }
 
 .card img{
@@ -35,7 +42,7 @@ h1{
 }
 
 .card h2{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 5px;
 }
